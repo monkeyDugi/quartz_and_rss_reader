@@ -13,7 +13,7 @@ import java.util.List;
 
 public class RSSReader {
 
-    private String url;
+    private final String url;
     private final String rssUrl;
 
     public RSSReader(String url) throws IOException, FeedException {
